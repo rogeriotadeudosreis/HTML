@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulários</title>
+    <a href="listagensElinks.html">Voltar</a>
+    <h1>Aula Sobre a Tag Form</h1>
+</head>
+
+<body>
+    <!--Form com tipo de envio-->
+    <form>
+        <div>
+            <!--título-->
+            <label for="nome">Name
+                <!--campo de inserção-->
+                <input type="text" id="name" value="Rogério Tadeu dos Reis" required />
+            </label>
+        </div>
+        <p>
+        <div>
+            <label for="email">E-mail
+                <input type="email" id="email" required />
+            </label>
+        </div>
+        </p>
+        <div>
+            <label for="password">Password
+                <input type="password" id="password" required />
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="preco" value="150">R$ 150,00
+            </label>
+            <label>
+                <input type="radio" name="preco" value="200">R$200,00
+            </label>
+            <label>
+                <input type="radio" name="preco" value="300">R$300,00
+            </label>
+            <label>
+                <input type="radio" name="preco" value="400">R$400,00
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" name="variosprecos" value="150"> R$ 150,00 <br>
+            </label>
+            <label>
+                <input type="checkbox" name="variosprecos" value="200"> R$ 200,00 <br>
+            </label>
+            <label>
+                <input type="checkbox" name="variosprecos" value="300"> R$ 300,00 <br>
+            </label>
+            <label>
+                <input type="checkbox" name="variosprecos" value="400"> R$ 400,00 <br>
+            </label>
+        </div>
+        <div>
+            <p>
+                <button>Enviar Formulário</button>
+            </p>
+        </div>
+    </form>
+</body>
+<footer>
+    <br>
+    Final do formulário
+</footer>
+
+</html>
